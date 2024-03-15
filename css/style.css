@@ -13,6 +13,13 @@
   overflow: hidden;
 }
 
+.pipe{
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  animation: pipe-animation 1.5s infinite linear;
+}
+
 .mario{
   width: 150px;
   position: absolute;
@@ -23,12 +30,7 @@
   animation: jump 500ms ease-out;
 }
 
-.pipe{
-  position: absolute;
-  bottom: 0;
-  width: 80px;
-  animation: pipe-animation 2s infinite linear;
-}
+
 
 @keyframes pipe-animation{
   from{
